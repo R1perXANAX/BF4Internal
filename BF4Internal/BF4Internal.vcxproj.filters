@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{e7698e07-a30e-4f87-9298-c9a43aa324ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mem">
+      <UniqueIdentifier>{157cb6f0-3c4e-48ce-8d4f-24c8d475beda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{120c6b52-8079-49ba-a173-c395602ff8cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{e92c1338-7fe5-42a3-a93f-bbab4ce0704f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheat">
+      <UniqueIdentifier>{2885840a-df94-40be-8686-0ca5d0fb50a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="Undocumented.h">
+      <Filter>Mem</Filter>
+    </ClInclude>
+    <ClInclude Include="SecurityHelper.h">
+      <Filter>Mem</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking_x64.h">
+      <Filter>Mem</Filter>
+    </ClInclude>
+    <ClInclude Include="FBClasses.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMath.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="AimBot.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Visual.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugConsole.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="SecurityHelper.cpp">
+      <Filter>Mem</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking_x64.cpp">
+      <Filter>Mem</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMath.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Visual.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="AimBot.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugConsole.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
